@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(72, 68, 68);
+    width: 434px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 5%;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.main{
+    background-color: black;
+    margin: 20px;
+    width: 90vw;
+    color: aliceblue;
+}
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /* background-color: rgb(57, 53, 53); */
+    height: 50vh;
+    width: 80vw;
+    margin: 58px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 45px;
+}
+.Name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+.About{
+    font-size: 35px;
+}
+
+.moreabout{
+    margin-top: 23px;
+    font-size: 18px;
+}
+.button{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 17px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.btn:hover{
+    color: black;
+    background-color: wheat;
+}
+.divpic{
+    height: 50vh;   
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 140px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center; */
+    padding: 12px 0;
+}
+
+.contactform div{
+ padding: 10px 0;
+ margin: 0 5px ;
+ display: flex;
+ flex-direction: column;
+}
+
+.contactform form div input{
+    border-radius: 7px;
+    width: 45vw;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 14px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 20px;
+    margin: 3px 0;
+}
